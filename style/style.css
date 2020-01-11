@@ -1,0 +1,35 @@
+body{
+background-color: blue;
+}
+
+p{
+background-color: orange;
+
+}
+
+div{
+font-size: 20px
+}
+
+pre{
+color: green
+
+}
+
+img{
+margin: auto;
+display: block;
+border-color: black;
+border-width: medium;
+border-style: dashed;
+border-radius: 25px;
+/* śdnica zaokrąglenia rogów 25 pikseli*/
+}
+
+.lista{
+list-style-type: lower-roman;
+list-style-possition: inside;
+top: 2px;
+right: 450px
+visibility: visible;
+}
