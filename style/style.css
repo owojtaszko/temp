@@ -33,3 +33,34 @@ top: 2px;
 right: 450px
 visibility: visible;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:link{ /*ostylowanie nieodwiedzonego linku*/
+color: #green;
+}
+
+a:visited{
+color: orange;
+}
+
+a:hover{ /*stan gdy najedziemy myszką na link*/
+color: olive;
+margin-top: 5px;
+margin-left: 2px;
+font-weight: bold;
+}
+
+a:active{ /*stan gdy klikamy na link*/
+    color: black;
+}
+
+p:first-letter {
+    font-size: 45px;
+}
+
+li:nth-child(2){
+background-color: red;
+}
