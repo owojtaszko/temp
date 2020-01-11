@@ -6,6 +6,8 @@
 </head>
 <body>
 
+<p id="foobar">Foo bar!</p>
+<button onclick="swap()">Foo bar</button>
 <button onclick="alertFunction()">Kliknij mnie</button>
 <script>
 <!--    alert("Hello world!");-->
@@ -15,7 +17,14 @@ function  alertFunction(){
 alert("Test");
 }
 
- 
+function swap(){
+    let elementById = document.getElementById("foobar");
+    if(elementById.innerHTML === "Foo bar!"){
+        elementById.innerHTML = "Bar foo!";
+    }else{
+        elementById.innerHTML = "Foo bar!";
+    }
+}
 
 </script>
 
