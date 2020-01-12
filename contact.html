@@ -7,7 +7,8 @@
 <body>
 <a href="index.html" target="zakladka">home</a>
 
-<form action="index.html" method="get">
+<form name="contactForm" action="index.html" method="get" onsubmit="return validateForm()">
+<!--    metoda return powoduje ze jeżeli funkcja zwróci F to formularz nie zostanie wysłany -->
     <label>Imię: <input type="text" name="firstName"></label><br/>
     <label>Nazwisko: <input type="text" name="lastName"></label><br/>
     <label>Płeć:
@@ -24,8 +25,8 @@
     <button type="submit">Wyślij</button><br/>
     <button type="reset">Wyczyść</button><br/>
 
-
-
 </form>
+
+<script src="validator.js"></script>
 </body>
 </html>
